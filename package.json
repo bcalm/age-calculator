@@ -1,0 +1,25 @@
+{
+  "name": "calculateage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node main.js 20 01 2019",
+    "prettify": "prettier --write src/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcalm/calculate_age.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/bcalm/calculate_age#readme",
+  "devDependencies": {
+    "mocha": "^6.2.2",
+    "prettier": "^1.19.1"
+  }
+}
